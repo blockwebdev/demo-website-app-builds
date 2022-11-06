@@ -1,0 +1,57 @@
+.tabLink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tabLink:hover {
+    background-color: #777;
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+
+.tabContent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.ethLink {
+    color: blue;
+}
+
+.mainBodyContent {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 115px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mainBodyContent2 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#theSandbox { background-color: green;}
+#decentraland { background-color: red;}
+#veveverse { background-color: blue;}
+#palmstudios { background-color: purple;}
