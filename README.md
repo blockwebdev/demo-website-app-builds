@@ -1,6 +1,6 @@
 *Links to completed site builds (live basic demo purpose only)*
 
- https://blockwebdev.github.io/demo-website-app-builds/ordinals_project
+ https://blockwebdev.github.io/demo-website-app-builds/ordinals_project/index2.html
 
 Demo Build - Metaverse/NFT top websites aggregator Single Page App:
 https://blockwebdev.github.io/demo-website-app-builds/full-app-1/
