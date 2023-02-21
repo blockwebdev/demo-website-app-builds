@@ -33,21 +33,21 @@ async function getInscriptionsByAddress(address) {
 
 function displayInscription(inscription, imageSrc) {
     // remove previous search results
-    var inscriptionsElement = document.getElementById("inscriptions");
+    let inscriptionsElement = document.getElementById("inscriptions");
     inscriptionsElement.innerHTML = "";
 
     // create inscription element
-    var inscriptionElement = document.createElement("div");
+    let inscriptionElement = document.createElement("div");
     inscriptionElement.className = "inscription";
 
     // display inscription element
-    var titleElement = document.createElement("h2");
+    let titleElement = document.createElement("h2");
     titleElement.textContent = `${inscription.title}`;
     inscriptionElement.appendChild(titleElement);
 
     // create and display timestamp
-    var timestampElement = document.createElement("p");
-    var timestamp = new Date(inscription.timestamp).toLocaleTimeString('en-US', {
+    let timestampElement = document.createElement("p");
+    let timestamp = new Date(inscription.timestamp).toLocaleTimeString('en-US', {
         hour: 'numeric',
         minute: 'numeric',
         hour12: true,
@@ -61,13 +61,13 @@ function displayInscription(inscription, imageSrc) {
     inscriptionElement.appendChild(timestampElement);
 
     // create and display owner address
-    var ownerElement = document.createElement("p");
+    let ownerElement = document.createElement("p");
     ownerElement.textContent = `OWNER ADDRESS: ${inscription.address}`;
     ownerElement.style.fontWeight = "bold";
     inscriptionElement.appendChild(ownerElement);
 
     // create and display image element
-    var imageElement = document.createElement("img");
+    let imageElement = document.createElement("img");
     imageElement.src = imageSrc;
     imageElement.width = 360;
     imageElement.height = 360;
@@ -80,19 +80,19 @@ function displayInscription(inscription, imageSrc) {
 document
     .getElementById("search-button")
     .addEventListener("click", function () {
-    var inscription_id = document.getElementById("search-box").value;
+    let inscription_id = document.getElementById("search-box").value;
     getInscription(inscription_id);
     });
 
 document
     .getElementById("search-button2")
     .addEventListener("click", function () {
-    var address = document.getElementById("search-box2").value;
+    let address = document.getElementById("search-box2").value;
     getInscriptionsByAddress(address);
     }); 
 
 // create link element
-var twitterLink = document.createElement("a");
+let twitterLink = document.createElement("a");
 twitterLink.textContent = "Created by @blockwebdev";
 twitterLink.href = "https://twitter.com/blockwebdev";
 twitterLink.target = "_blank";
