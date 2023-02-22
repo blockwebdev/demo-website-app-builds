@@ -1,9 +1,9 @@
-*Links to completed site builds (live basic demo purpose only)*
 
-This is a live Web Application for searching Bitcoin Ordinals or "NFT's". Simplicity and ease
-without clutter was the goal here. This will be a continued work in progress with
-future exclusive added features.
+LIVE WEB APP (Bitcoin Ordinal Search) 
 https://blockwebdev.github.io/demo-website-app-builds/ordinals_project/index2.html
+*This is a live Web Application for searching Bitcoin Ordinals or "NFT's". Simplicity and ease
+without clutter is the goal here. Future updates and functionalities to be added.
+
 
 Demo Build - Metaverse/NFT top websites aggregator Single Page App:
 https://blockwebdev.github.io/demo-website-app-builds/full-app-1/
