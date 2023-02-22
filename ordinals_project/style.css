@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f5f397;
+  background-color: #ffffff;
   text-align: center;
   padding-top: 25px;
 }
@@ -17,13 +17,17 @@ body {
 /* Center the inscriptions and address divs */
 #inscriptions,
 #address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;  
   margin: 0 auto;
   width: 80%;
 }
 
 /* Style the inscription title and timestamp */
 .inscription h2 {
-  color: #114e60;
+  color: #5161db;
   font-size: 24px;
   font-weight: bold;
 }
@@ -43,7 +47,7 @@ img {
   display: block;
   margin: 0 auto;
   padding: 10px;
-  border: 1px solid #114e60;
+  border: none;
 }
 
 label {
@@ -75,22 +79,54 @@ input[type="text"] {
     margin-top: 15px;
 }
 
-#twitter-link {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    font-size: 12px;
-    color: #555;
-    margin: 5px;
-    text-decoration: none;
-    border: none;
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 150px
 }
   
-  #twitter-link img {
-    width: 16px;
-    height: 16px;
-    margin-right: 5px;
-    border: none;
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+  
+h1 {
+    margin: 0;
+}
+  
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#inscriptions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Change the number of columns as needed */
+    grid-gap: 20px; /* Add some space between images */
+}
+  
+.inscription-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.twitter-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
 }
 
   
