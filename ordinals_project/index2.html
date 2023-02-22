@@ -2,34 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Inscription Search</title>
+    <title>BTC Ordinal Search</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 
   </head>
   <body>
-    <div>
+    <div style="padding-top: 65px;">
       <label for="search-box">Enter Inscription ID:</label>
-      <input type="text" id="search-box" />
+      <input type="text" id="search-box" spellcheck="false" />
       <button id="search-button">Search</button>
     </div>
+
     <div>
       <label for="search-box2">Enter Bitcoin Address (bc1):</label>
-      <input type="text" id="search-box2" />
+      <input type="text" id="search-box2" spellcheck="false" />
       <button id="search-button2">Search</button>
     </div>
-    <div class="intro">To view Bitcoin NFT's, please enter the Inscription ID <br>
+    
+    <div class="intro">To view Bitcoin Ordinals, please enter the Inscription ID <br>
         which is longer than 60 characters OR enter a Bitcoin <br>
         address which starts with (bc1)
 
     </div>
-    
-    <a href="https://twitter.com/blockwebdev"></a>
 
+    <div class="twitter-link">
+        <a href="https://twitter.com/blockwebdev" target="_blank">Created by @blockwebdev</a>
+    </div>
+    
     <div id="inscriptions"></div>
     <div id="address"></div>
-    <script src="ord.js">
- 
-    </script>
+
+    <script src="ord.js"></script>
   </body>
 </html>
-
