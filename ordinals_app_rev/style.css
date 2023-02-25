@@ -1,0 +1,199 @@
+/* Center the search elements and set the background color */
+#search-box,
+#search-box2,
+#search-box3,
+#search-button,
+#search-button2
+#search-button3 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 25px;
+  font-family: "Oxygen", sans-serif;
+}
+
+/* Center the inscriptions and address divs */
+#inscriptions,
+#address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;  
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Style the inscription title and timestamp */
+.inscription h2 {
+  color: #5161db;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.inscription p {
+  color: #114e60;
+  font-size: 16px;
+}
+
+/* Style the owner address */
+.owner {
+  font-weight: bold;
+}
+
+/* Style the images */
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+input[type="text"] {
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+#search-box {
+    width: 400px;
+}
+#search-box2 {
+    width: 400px;
+}
+#search-box3 {
+    width: 400px;
+}
+
+#search-button, #search-button2, #search-button3 {
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    margin-top: 5px;
+    font-family: "Oxygen", sans-serif;
+}
+
+.intro {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 250px
+}
+  
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+  
+h1 {
+    margin: 0;
+}
+  
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#inscriptions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Change the number of columns as needed */
+    grid-gap: 20px; /* Add some space between images */
+}
+  
+.inscription-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.twitter-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+}
+
+#numbers {
+    color: rgb(211, 192, 50);
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow:
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+.blink-dot {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: red;
+    animation: blink 1.5s ease-in-out infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+
+  
+  
+  
+
+
+  
+
+  
+
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+  

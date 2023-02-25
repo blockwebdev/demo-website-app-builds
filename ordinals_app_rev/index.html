@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bitcoin Ordinal Search</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <div style="position: absolute; top: -3px; left: 195px;">
+        <a href="https://twitter.com/blockwebdev" target="_blank">
+          <img src="images/twitter-g6438d3bb0_1920.jpeg" alt="Pixabay Image" style="width: 30px; height: 30px;">
+        </a>
+    </div>
+      
+      
+
+    <div style="padding-top: 120px;">
+      <label for="search-box">Inscription Number <i><b>or</b></i> ID</label>
+      <input type="text" id="search-box" spellcheck="false" />
+      <button id="search-button">Search</button>
+    </div>
+
+    <div>
+      <label for="search-box2">Bitcoin Address (bc1)</label>
+      <input type="text" id="search-box2" spellcheck="false" />
+      <button id="search-button2">Search</button>
+    </div>
+    
+    <div class="intro">To view Bitcoin Ordinals please enter the Inscription Number <br>
+        <u><i><b>OR</b></i></u> (Transaction ID which is longer than 60 characters) <u><i><b>OR</b></i></u><br>
+        enter a Bitcoin address (which starts with <b>bc1</b>)
+
+    </div>
+
+    <div class="twitter-link">
+        <a href="https://twitter.com/blockwebdev" target="_blank">Created by @blockwebdev</a>
+    </div>
+
+    <div class="blink-dot"></div>
+    <div id="numbers"></div>
+    <div id="inscriptions"></div>
+    <div id="address"></div>
+
+    <script src="updated.js"></script>
+  </body>
+</html>
+
