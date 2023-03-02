@@ -37,7 +37,7 @@ async function getInscription(inscription) {
       displayInscription(data, imageUrl, inscriptionsElement);
 
     } catch (error) {
-      window.alert("Failed getting 'Inscription Number', try again later.", error);
+      window.alert("Failed getting 'Inscription Number', try ID instead.", error);
     } finally {
       inscriptionsElement.removeChild(inscriptionsElement.firstChild);
     }
